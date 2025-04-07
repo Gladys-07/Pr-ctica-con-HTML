@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etiquetas HTML</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Etiquetas</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <header>
-        <h1>Ejemplos de etiquetas HTML</h1>
-    </header>
-    <nav>
-        <a href="index.html">Inicio</a> |
-        <a href="tags.html">Etiquetas</a> |
-        <a href="profile.html">Perfil</a>
-    </nav>
-    <p>Este es un párrafo de ejemplo.</p>
-    <br />
-    <strong>Texto en negrita</strong><br />
-    <sub>Texto en subíndice</sub><br />
-    <img src="imagen-ejemplo.jpg" alt="Imagen de ejemplo" width="200">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">RC2005B</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+          <li class="nav-item"><a class="nav-link active" href="tags.html">Etiquetas</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container mt-5">
+    <div class="card shadow p-4">
+      <h2 class="text-center mb-3">Ejemplo de Etiquetas HTML</h2>
+      <ul class="list-group">
+        <li class="list-group-item">&lt;h1&gt; a &lt;h6&gt; - Encabezados</li>
+        <li class="list-group-item">&lt;p&gt; - Párrafos</li>
+        <li class="list-group-item">&lt;a&gt; - Hipervínculos</li>
+        <li class="list-group-item">&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt; - Listas</li>
+        <li class="list-group-item">&lt;div&gt;, &lt;span&gt; - Contenedores</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+

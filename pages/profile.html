@@ -1,24 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perfil</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <header>
-        <h1>Mi Perfil</h1>
-    </header>
-    <nav>
-        <a href="index.html">Inicio</a> |
-        <a href="tags.html">Etiquetas</a> |
-        <a href="profile.html">Perfil</a>
-    </nav>
-    <div>
-        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="Foto de perfil" width="200">
-        <p><strong>Nombre:</strong> [Tu Nombre]</p>
-        <p><strong>Edad:</strong> [Tu Edad]</p>
-        <p><strong>Educación:</strong> [Nivel de educación]</p>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">RC2005B</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="profile.html">Profile</a></li>
+          <li class="nav-item"><a class="nav-link" href="tags.html">Etiquetas</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container mt-5">
+    <div class="card shadow p-4">
+      <h2 class="text-center mb-3">Perfil de Usuario</h2>
+      <p>Aquí puedes ver y editar la información de tu perfil.</p>
+      <ul>
+        <li>Nombre: Gladys Pérez</li>
+        <li>Email: A00839182@tec.mx</li>
+        <li>Rol: Estudiante</li>
+      </ul>
+      <button class="btn btn-primary mt-3">Editar Perfil</button>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
