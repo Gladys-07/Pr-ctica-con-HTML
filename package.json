@@ -1,0 +1,13 @@
+{
+    "name": "csftw2",
+    "version": "1.0.0",
+    "description": "Proyecto web con funcionalidades JavaScript",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "Gladys",
+    "license": "ISC"
+  }
+  
