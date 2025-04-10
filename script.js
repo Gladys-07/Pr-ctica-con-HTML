@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const email = document.getElementById("email").value;
       const password = document.getElementById("password").value;
   
-      // Datos de prueba (puedes cambiarlos por los reales)
+      // Datos de prueba 
       const usuarioValido = "alumno@gmail.com";
       const contraseñaValida = "12345";
   
