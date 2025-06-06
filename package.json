@@ -4,9 +4,9 @@
     "description": "Proyecto web con funcionalidades JavaScript",
     "main": "index.js",
     "type": "commonjs",
-    "dev": "vite",
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "dev": "vite"  
     },
     "author": "Gladys",
     "license": "ISC",
