@@ -1,6 +1,6 @@
 // vite.config.js
 export default {
-  root: 'public', 
+  root: 'pagina-juego/pages',
   server: {
     port: 5173
   }
