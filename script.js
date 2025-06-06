@@ -1,4 +1,3 @@
-// Espera que el DOM cargue
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.querySelector("form");
   
@@ -9,8 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const password = document.getElementById("password").value;
   
       // Datos de prueba 
-      const usuarioValido = "alumno@gmail.com";
-      const contraseñaValida = "12345";
+      const usuarioValido = "gladys@gmail.com";
+      const contraseñaValida = "123";
   
       if (email === usuarioValido && password === contraseñaValida) {
         alert("Inicio de sesión exitoso");
