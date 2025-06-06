@@ -4,10 +4,13 @@
     "description": "Proyecto web con funcionalidades JavaScript",
     "main": "index.js",
     "type": "commonjs",
+    "dev": "vite",
     "scripts": {
-      "start": "node index.js"
+        "start": "node index.js"
     },
     "author": "Gladys",
-    "license": "ISC"
-  }
-  
+    "license": "ISC",
+    "devDependencies": {
+        "vite": "^6.3.5"
+    }
+}
